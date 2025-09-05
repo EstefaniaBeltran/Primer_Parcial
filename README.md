@@ -1,3 +1,4 @@
+**Yeimy Estefanía Beltrán Sandoval**
 # PRIMER PARCIAL - PARADIGMAS DE PROGRAMACIÓN 
 # Punto 1
 **Análisis Comparativo entre Programación Imperativa y Declarativa**
