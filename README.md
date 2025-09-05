@@ -99,7 +99,8 @@ $$
 En notación de cálculo lambda se puede expresar de forma simplificada como:
 
 $$
-\lambda L . \frac{\operatorname{foldr}(+)\ 0L}{\operatorname{length}\ L}
+\lambda L . \dfrac{foldr( + )\ 0L}{length\ L}
 $$
+
 
         
