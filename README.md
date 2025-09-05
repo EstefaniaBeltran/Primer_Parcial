@@ -91,9 +91,15 @@ main = do
 ```
 **Solución** 
 
-        `promedio ( L ) = suma ( L ) / longitud ( L)`
-        
+$$
+promedio(L) = \frac{suma(L)}{longitud(L)}
+$$
+
+
 En notación de cálculo lambda se puede expresar de forma simplificada como:
 
-        `λ L . foldr( + ) 0L / length L ` 
+$$
+\lambda L . \frac{\operatorname{foldr}(+)\ 0L}{\operatorname{length}\ L}
+$$
+
         
