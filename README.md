@@ -102,5 +102,10 @@ $$
 \lambda L . \dfrac{foldr( + )\ 0L}{length\ L}
 $$
 
+**Funcionamiento**
+- λ L. define una función que recibe una lista L.
+-  foldr (+) 0 L obtiene la suma de los elementos.
+-  ength L obtiene el tamaño de la lista.
 
+**En Haskell** 
         
