@@ -17,9 +17,9 @@ Por el contrario, la función sorted() utilizada en el enfoque declarativo imple
 En conclusión, aunque ambos enfoques cumplen con el objetivo propuesto, sus características los hacen más adecuados para contextos distintos. La programación imperativa es útil para comprender en detalle cómo funciona un algoritmo y tener control absoluto sobre cada paso, pero su mantenimiento y rendimiento pueden verse limitados. La programación declarativa, en cambio, permite escribir código más claro, compacto y eficiente, lo que la convierte en una opción más conveniente en entornos reales donde la legibilidad, la mantenibilidad y la optimización son prioritarias.
 
 
-**Punto 2**
+# Punto 2
 
--Funcionamiento del programa
+**Funcionamiento del programa**
 
 El programa implementa un sistema de gestión de estudiantes diseñado para optimizar el uso de memoria utilizando asignación dinámica. Cada estudiante tiene un registro con su nombre, apellido, edad, número de identificación, materias y notas. Para evitar desperdicio de memoria, el programa solo reserva el espacio estrictamente necesario para cada dato mediante el uso de las funciones malloc, realloc y free.
 
@@ -74,7 +74,7 @@ Las funciones principales que garantizan su funcionamiento son:
 
 Gracias a la utilización de malloc, free y realloc, el programa gestiona de forma controlada y eficiente el espacio de memoria, cumpliendo con todos los requisitos solicitados.
 
-**Punto 3**
+# Punto 3
 
 -Codigo original de Haskell
 
@@ -89,3 +89,6 @@ main = do
         then putStrLn "La lista está vacía, no se puede calcular el promedio."
         else putStrLn $ "El promedio es: " ++ show (promedio numeros)
 ```
+**Solución** 
+
+        promedio ( L ) = suma ( L ) / longitud ( L)
