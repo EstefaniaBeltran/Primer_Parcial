@@ -73,3 +73,17 @@ Las funciones principales que garantizan su funcionamiento son:
 * eliminarEstudiante() → libera memoria y compacta los registros.
 
 Gracias a la utilización de malloc, free y realloc, el programa gestiona de forma controlada y eficiente el espacio de memoria, cumpliendo con todos los requisitos solicitados.
+
+**Punto 3**
+
+-Codigo original de Haskell
+
+promedio xs = realToFrac (sum xs) / genericLength xs
+main :: IO ()
+main = do
+    putStrLn "Ingrese una lista de números separados por espacios:"
+    entrada <- getLine
+    let numeros = map read (words entrada) :: [Double]
+    if null numeros
+        then putStrLn "La lista está vacía, no se puede calcular el promedio."
+        else putStrLn $ "El promedio es: " ++ show (promedio numeros)
