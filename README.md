@@ -106,7 +106,8 @@ $$
 **Funcionamiento**
 - λ L. define una función que recibe una lista L.
 -  foldr (+) 0 L obtiene la suma de los elementos.
--  ength L obtiene el tamaño de la lista.
+-  Length L obtiene el tamaño de la lista.
+-  La división representa el promedio
 
 **Aplicación en Haskell** 
 
