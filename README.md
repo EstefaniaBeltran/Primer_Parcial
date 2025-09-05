@@ -77,7 +77,7 @@ Gracias a la utilización de malloc, free y realloc, el programa gestiona de for
 **Punto 3**
 
 -Codigo original de Haskell
-
+´´´
 promedio xs = realToFrac (sum xs) / genericLength xs
 main :: IO ()
 main = do
@@ -87,3 +87,4 @@ main = do
     if null numeros
         then putStrLn "La lista está vacía, no se puede calcular el promedio."
         else putStrLn $ "El promedio es: " ++ show (promedio numeros)
+´´´
