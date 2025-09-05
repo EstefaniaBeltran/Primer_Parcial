@@ -107,5 +107,8 @@ $$
 -  foldr (+) 0 L obtiene la suma de los elementos.
 -  ength L obtiene el tamaño de la lista.
 
-**En Haskell** 
-        
+**Aplicación en Haskell** 
+
+1. Lambda en `promedio`: La función `promedio` está definida usando una lambda `\xs -> ...`, donde `xs` es la lista de números. En este caso, se utiliza `foldr (+) 0 xs` para calcular la suma de los elementos de la lista, y `fromIntegral (length xs)` para obtener la longitud de la lista convertida a tipo `Double` (usando `fromIntegral` para evitar problemas de tipos).
+
+2. Main: El `main` sigue siendo el mismo que antes. Solicita al usuario que ingrese una lista de números separados por espacios, los lee, los convierte a tipo `Double` y luego calcula el promedio usando la función `promedio`.
