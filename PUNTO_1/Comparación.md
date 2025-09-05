@@ -1,4 +1,5 @@
-# Análisis Comparativo entre Programación Imperativa y Declarativa
+# Punto 1
+**Análisis Comparativo entre Programación Imperativa y Declarativa**
 
 En el desarrollo del ejercicio se implementaron dos enfoques de programación diferentes para resolver el mismo problema: ordenar una lista de estudiantes con la nota del parcial final de forma descendente y, en caso de tener la misma nota, en orden alfabético. Aunque ambos métodos alcanzan el mismo resultado, la forma de lograrlo es distinta y esto se refleja en la claridad, la abstracción, el manejo de datos, el mantenimiento y la eficiencia del código.
 
